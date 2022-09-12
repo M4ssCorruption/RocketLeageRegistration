@@ -33,8 +33,6 @@ private EditText edtUserName,edtPassword;
             public void onClick(View view) {
                 Intent intent = new Intent(AdminLogin.this, HomeScreen.class);
                 startActivity(intent);
-
-
             }
         });
     }

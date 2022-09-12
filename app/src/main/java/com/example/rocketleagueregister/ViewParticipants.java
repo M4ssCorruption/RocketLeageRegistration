@@ -178,7 +178,10 @@ public void updateData() {
     boolean isUpdated = myDb.updateAccounts(
             edtName.getText().toString(),
             edtSurname.getText().toString(),
-            age, edtUserName.getText().toString(), edtPassword.getText().toString(), edtTournamentName.getText().toString(), String.valueOf(chkEntered.isChecked()));
+            age, edtUserName.getText().toString(),
+            edtPassword.getText().toString(),
+            edtTournamentName.getText().toString(),
+            String.valueOf(chkEntered.isChecked()));
     if (isUpdated == true) {
         Toast.makeText(ViewParticipants.this, "Account Updated!", Toast.LENGTH_LONG).show();
 

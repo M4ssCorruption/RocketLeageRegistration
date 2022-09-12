@@ -28,7 +28,6 @@ public class SearchUser extends AppCompatActivity {
         myDb = new DBHelper(this);
         edtUserName = (EditText) findViewById(R.id.edtSearch);
         Button btnReturn = findViewById(R.id.btnReturn8);
-
         txtUserId= findViewById(R.id.txtId);
         txtName= findViewById(R.id.txtName);
         txtSurname= findViewById(R.id.txtSurname);
